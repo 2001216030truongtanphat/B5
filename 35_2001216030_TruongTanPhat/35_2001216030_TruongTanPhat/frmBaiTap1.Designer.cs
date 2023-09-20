@@ -136,6 +136,7 @@
             this.Name = "frmBaiTap1";
             this.Text = "My name Project";
             this.Load += new System.EventHandler(this.frmBaiTap1_Load);
+            this.FormClosing  += this.frmBT1_FormClosing;
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
